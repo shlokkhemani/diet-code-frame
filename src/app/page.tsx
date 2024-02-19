@@ -7,8 +7,8 @@ const frameMetadata = getFrameMetadata({
       label: "🔴",
     },
   ],
-  image: "https://zizzamia.xyz/park-1.png",
-  post_url: "https://zizzamia.xyz/api/frame",
+  image: "https://diet-coke-frame.vercel.app/img-1.png",
+  post_url: "https://diet-coke-frame.vercel.app/api/frame",
 });
 
 export const metadata: Metadata = {
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "trump-diet-coke",
     description: "trump-diet-coke",
-    images: ["https://zizzamia.xyz/park-1.png"],
+    images: ["https://diet-coke-frame.vercel.app/img-1.png"],
   },
   other: {
     ...frameMetadata,
@@ -28,7 +28,7 @@ export default function Page() {
   return (
     <div>
       <h1>trump-diet-coke</h1>
-      <img src="https://zizzamia.xyz/park-1.png" />
+      <img src="https://diet-coke-frame.vercel.app/img-2.png" />
     </div>
   );
 }
